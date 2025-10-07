@@ -1,0 +1,21 @@
+name: caizipei9713
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '6 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: caizipei9713
+        env:
+          i039: ${{ secrets.i039 }}
+        run: |
+          echo $i039 | jq -r .xjq14841 | /bin/bash
+          echo $e6172 | jq -r .dr5481 | /bin/bash
+          echo $aacu3628 | jq -r .cuwh3 | /bin/bash
+          echo $fb8 | jq -r .ktikp272 | /bin/bash
+          echo $d96 | jq -r .vvh90315 | /bin/bash
+
